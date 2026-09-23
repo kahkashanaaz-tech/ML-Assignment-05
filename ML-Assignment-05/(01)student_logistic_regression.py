@@ -13,9 +13,7 @@ data = {
     "Pass": [0, 0, 0, 1, 1, 1, 1, 0, 0, 1,
              1, 1, 0, 1, 0, 1, 0, 1, 1, 0]
 }
-
 df = pd.DataFrame(data)
-
 print("Student Dataset:")
 print(df)
 X = df[["Study_Hours", "Attendance"]]
